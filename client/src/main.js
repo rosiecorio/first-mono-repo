@@ -1,5 +1,5 @@
 const container = document.getElementById("container")
-const API_URL = "https://localhost:8080"
+const API_URL = "https://first-mono-repo-server.onrender.com"
 
 async function getFruits() {
     const response = await fetch(`${API_URL}/fruits`)
