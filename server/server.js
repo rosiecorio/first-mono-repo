@@ -18,6 +18,6 @@ app.get("/fruits", (request, response) => {
     response.json(fruits)
 })
 
-app.listen('https://first-mono-repo-server.onrender.com', () => {
-    console.log("Server is running on Render!")
+app.listen('8080', () => {
+    console.log("Server is running on 8080!")
 })
